@@ -7,7 +7,7 @@ client.aliases = new Discord.Collection();
 client.db = require("quick.db");
 
 client.on("ready", async () => {
-  console.log(`Yo boii!! Moderation.V1 has been deployed!! Coded by 365 ɢᴀᴍɪɴɢ ɴ ᴍᴏʀᴇ_2.0#6766`);
+  console.log(`Yo boii!! made by tmg op https://www.youtube.com/toymastergaming`);
   client.user
     .setActivity(`TMG OP`, { type: "LISTENING" })
     .catch(error => console.log(error));
@@ -84,4 +84,4 @@ client.on("message", async message => {
 
 client.login(Token);
 
-//Bot Coded by 365 ɢᴀᴍɪɴɢ ɴ ᴍᴏʀᴇ_2.0#6766 DONOT share WITHOUT credits!!
+
